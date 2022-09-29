@@ -57,6 +57,17 @@ let rain = true;
 
 //CODE HERE
 
+if (temperature >= 80) {
+  console.log("Wear a t-shirt and take an umbrella")
+} else if (temperature >= 60 , temperature <= 80 , rain = true) {
+    console.log("Wear a rain jacket")
+} else if (temperature <= 60) {
+  console.log("Wear a jacket and carry an umbrella")
+} else {
+  console.log("Error")
+}
+  
+
 ////////// PROBLEM 5 //////////
 
 /*
@@ -64,7 +75,9 @@ let rain = true;
 */
 
 //CODE HERE
-
+for (let i = 0; i <10; i++) {
+  console.log("hello")
+}
 ////////// PROBLEM 6 //////////
 
 /*
@@ -72,7 +85,9 @@ let rain = true;
 */
 
 //CODE HERE
-
+for (let i = 1; i <11; i++) {
+  console.log(i)
+}
 ////////// PROBLEM 7 //////////
 
 /*
@@ -80,7 +95,9 @@ let rain = true;
 */
 
 //CODE HERE
-
+for (let i = 10; i > -1; i-- ) {
+  console.log(i)
+}
 
 ////////// PROBLEM 8 //////////
 
@@ -90,6 +107,11 @@ let passingScore = 7;
 /*
   Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
 */
+while (score > 7) {
+  console.log("Your score is not high enough")
+  score += 1
+} 
+
 
 //CODE HERE
 
@@ -101,6 +123,15 @@ let passingScore = 7;
   Check to see if changeMyMind is set to true or false, if it is true, change the status to false, if it is false, change the status to true.
 
 */
+let changeMyMind = true
+
+if (changeMyMind = true) {
+  console.log("I have changed my mind")
+  changeMyMind !== true
+
+} else {
+  console.log("I have not changed my mind")
+}
 
 //CODE HERE
 
